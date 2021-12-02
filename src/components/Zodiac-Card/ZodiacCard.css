@@ -1,0 +1,17 @@
+.zodiac-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.name {
+  color: aliceblue;
+  font-size: 30px;
+}
+
+.dates {
+  color: aliceblue;
+  font-size: 30px;
+}

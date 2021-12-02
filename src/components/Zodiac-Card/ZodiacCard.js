@@ -1,12 +1,12 @@
 import React from 'react';
-import './ZodiacCard';
+import './ZodiacCard.css';
 
-export default function Zodiacs({ name, dates, sign }) {
+export default function ZodiaCard({ name, dates }) {
   return (
-    <div className="animal" style={{ name: name, dates: dates }}>
-      <img src={`${process.env.PUBLIC_URL}/zodiac/${sign}.svg`} />
-      <span className="name">{name}</span>
-      <span>{dates}</span>
+    <div className="zodiac-card">
+      <img src={`${process.env.PUBLIC_URL}/zodiacs/${name}.png`}></img>
+      <div className="name">{name}</div>
+      <div className="dates">{dates}</div>
     </div>
   );
 }
